@@ -1,0 +1,27 @@
+---
+title: "1967.06.209"
+# image: "images/UM_1967.06.209_1.png"
+categories: archaeology
+description: "Unknown Plainware"
+---
+
+
+::: {layout="[40, -20, 40]" layout-valign="center"}
+[![](./../images/UM_1967.06.209_1.png)](./../images/UM_1967.06.209_1.png)
+
+[![](./../images/UM_1967.06.209_3.JPG)](./../images/UM_1967.06.209_3.JPG)
+:::
+
+::: column-margin
+Object Name: Miniature Bowl
+
+Type: Unknown Plainware
+
+Time Period: AD 200 -- 1250
+
+Donor: Robert Willis Sheriff
+
+Object ID: 1967.06.209
+:::
+
+Miniature ceramic vessels like this one are not uncommon at prehistoric sites in the Southwest. Archaeologists have a variety of hypotheses to explain the presence of these vessels, but their purpose remains elusive. What do you think they were used for?

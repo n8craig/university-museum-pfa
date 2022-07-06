@@ -1,0 +1,19 @@
+---
+title: "*Pottery From the Americas*"
+subtitle: |
+  A presentation of select objects from the *Pottery of the Americas* permanent exhibit at the University Museum.
+
+# title-block-banner: true
+
+listing:
+  contents: objects
+  type: grid
+  sort:
+    - "title"
+    - "categories"
+  categories: true
+  grid-item-border: true
+  image-height: "50"
+---
+
+

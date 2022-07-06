@@ -1,0 +1,30 @@
+---
+title: "2015.4.469"
+body-header: Home
+categories: ethnographic
+description: "Wedding Vessel"
+---
+
+::: {layout="[40, -20, 40]" layout-valign="center"}
+[![](./../images/2015.4.469_1.png)](./../images/2015.4.469_1.png)
+
+[![](./../images/2015.4.469_2.png)](./../images/2015.4.469_2.png)
+
+[![](./../images/2015.4.469_3.png)](./../images/2015.4.469_3.png)
+:::
+
+::: column-margin
+Object Name: Vessel
+
+Type: Wedding Vessel
+
+Time Period: Contemporary
+
+Artist: Stella Teller
+
+Donor: Phillip L. Boucher
+
+Object ID: 2015.4.469
+:::
+
+The body of the vessel is white and a stairstep motif with geometric forms are painted on both faces. The rims have a thin painted black border, The handle has a curved line with dots. The artist signed the base, "Stella Teller Isleta N. Mex."

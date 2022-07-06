@@ -1,0 +1,25 @@
+---
+title: "1969.17.02"
+categories: archaeology
+description: Three Circle Neckcoiled
+---
+
+
+::: {layout="[40, -20, 40]" layout-valign="center"}
+[![](./../images/UM_1969.17.02_1.png)](./../images/UM_1969.17.02_1.png)
+:::
+
+::: column-margin
+Object Name: Jar
+
+Type: Three Circle Neckcoiled
+
+Time Period: AD 800 – 1000
+
+Donor: Edna Hayes
+
+Object ID: 1969.17.02
+
+:::
+
+Braided handles like the one seen on this Mogollon jar are difficult to execute. The potter had to remove the air pockets in between the coils to prevent the handles from breaking during firing. This is difficult to do without accidentally pressing the individual coils together to form one larger coil.
