@@ -1,15 +1,16 @@
 ---
-title: "1969.17.02"
-categories: archaeology
-description: Three Circle Neckcoiled
+params:
+  id: "1969.17.02"
+title: "Object ID: 1969.17.02"
+image: "./../images/UM_1969.17.02_1.png"
+categories: archaeological
+description: "Three Circle Neckcoiled"
 ---
+```{r echo=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
 
-
-::: {layout="[40, -20, 40]" layout-valign="center"}
-[![](./../images/UM_1969.17.02_1.png)](./../images/UM_1969.17.02_1.png)
-:::
-
-::: column-margin
+::: {layout-ncol=2}
 Object Name: Jar
 
 Type: Three Circle Neckcoiled
@@ -23,3 +24,21 @@ Object ID: 1969.17.02
 :::
 
 Braided handles like the one seen on this Mogollon jar are difficult to execute. The potter had to remove the air pockets in between the coils to prevent the handles from breaking during firing. This is difficult to do without accidentally pressing the individual coils together to form one larger coil.
+
+```{r}
+library(pixture)
+```
+
+```{r}
+a <- paste0("./../images/UM_", params$id, "_1.png")
+# a <- "./../images/UM_1967.06.209_1.png"
+
+b <- paste0("./../images/UM_", params$id, "_1.png")
+# b <- "./../images/UM_1967.06.209_3.JPG"
+
+# c <- paste0("./../images/UM_", params$id, "_3.png")
+# c <- "./../images/UM_1967.06.209_5.png"
+
+paths <- c(a,b)
+pixgallery(paths)
+```

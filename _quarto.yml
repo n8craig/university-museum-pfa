@@ -7,14 +7,14 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: Main Listing
+        text: Pottery Listing
 
 
 format:
   html:
     theme: cosmo
     css: styles.css
-    toc: true
+    toc: false
 
 editor: source
 

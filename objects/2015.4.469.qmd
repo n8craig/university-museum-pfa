@@ -1,19 +1,18 @@
 ---
-title: "2015.4.469"
-body-header: Home
+params:
+  id: "2015.4.469"
+title: "Object ID: 2015.4.469"
+image: "./../images/UM_2015.4.469_1.png"
+# body-header: Home
 categories: ethnographic
 description: "Wedding Vessel"
 ---
 
-::: {layout="[40, -20, 40]" layout-valign="center"}
-[![](./../images/2015.4.469_1.png)](./../images/2015.4.469_1.png)
+```{r echo=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
 
-[![](./../images/2015.4.469_2.png)](./../images/2015.4.469_2.png)
-
-[![](./../images/2015.4.469_3.png)](./../images/2015.4.469_3.png)
-:::
-
-::: column-margin
+::: {layout-ncol=2}
 Object Name: Vessel
 
 Type: Wedding Vessel
@@ -28,3 +27,21 @@ Object ID: 2015.4.469
 :::
 
 The body of the vessel is white and a stairstep motif with geometric forms are painted on both faces. The rims have a thin painted black border, The handle has a curved line with dots. The artist signed the base, "Stella Teller Isleta N. Mex."
+
+```{r}
+library(pixture)
+```
+
+```{r}
+a <- paste0("./../images/UM_", params$id, "_1.png")
+# a <- "./../images/UM_1967.06.209_1.png"
+
+b <- paste0("./../images/UM_", params$id, "_2.png")
+# b <- "./../images/UM_1967.06.209_3.JPG"
+
+c <- paste0("./../images/UM_", params$id, "_3.png")
+# c <- "./../images/UM_1967.06.209_5.png"
+
+paths <- c(a,b,c)
+pixgallery(paths)
+```

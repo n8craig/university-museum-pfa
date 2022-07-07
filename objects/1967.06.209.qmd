@@ -1,18 +1,28 @@
 ---
-title: "1967.06.209"
-# image: "images/UM_1967.06.209_1.png"
-categories: archaeology
+params:
+  id: "1967.06.209"
+title: "Object ID: 1967.06.209"
+image: "./../images/UM_1967.06.209_1.png"
+categories: archaeological
 description: "Unknown Plainware"
 ---
 
+```{r echo=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
 
-::: {layout="[40, -20, 40]" layout-valign="center"}
-[![](./../images/UM_1967.06.209_1.png)](./../images/UM_1967.06.209_1.png)
+```{r}
+library(knitr)
+```
 
-[![](./../images/UM_1967.06.209_3.JPG)](./../images/UM_1967.06.209_3.JPG)
-:::
+```{r}
+img <- paste0(here::here("images//"),
+              "UM_",
+              params$id)
+```
 
-::: column-margin
+
+::: {layout-ncol=2}
 Object Name: Miniature Bowl
 
 Type: Unknown Plainware
@@ -21,7 +31,36 @@ Time Period: AD 200 -- 1250
 
 Donor: Robert Willis Sheriff
 
-Object ID: 1967.06.209
 :::
 
 Miniature ceramic vessels like this one are not uncommon at prehistoric sites in the Southwest. Archaeologists have a variety of hypotheses to explain the presence of these vessels, but their purpose remains elusive. What do you think they were used for?
+
+```{r}
+#| layout-ncol: 2
+#| column: page
+
+# include_graphics(paste0(img, "_1.png"))
+# include_graphics(paste0(img, "_3.JPG"))
+# include_graphics(paste0(img, "_5.png"))
+```
+
+
+```{r}
+library(pixture)
+```
+
+```{r}
+a <- paste0("./../images/UM_", params$id, "_1.png")
+# a <- "./../images/UM_1967.06.209_1.png"
+
+b <- paste0("./../images/UM_", params$id, "_3.JPG")
+# b <- "./../images/UM_1967.06.209_3.JPG"
+
+c <- paste0("./../images/UM_", params$id, "_5.png")
+# c <- "./../images/UM_1967.06.209_5.png"
+
+paths <- c(a,b,c)
+pixgallery(paths)
+```
+
+
