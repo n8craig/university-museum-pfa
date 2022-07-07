@@ -32,9 +32,12 @@ library(pixture)
 ```{r}
 a <- paste0("./../images/UM_", params$id, "_1.png")
 # a <- "./../images/UM_1967.06.209_1.png"
+a <- "https://raw.githubusercontent.com/n8craig/university-museum-pfa/main/images/UM_1967.06.209_1.png"
 
 b <- paste0("./../images/UM_", params$id, "_1.png")
 # b <- "./../images/UM_1967.06.209_3.JPG"
+b <- a <- "https://raw.githubusercontent.com/n8craig/university-museum-pfa/main/images/UM_1967.06.209_1.png"
+
 
 # c <- paste0("./../images/UM_", params$id, "_3.png")
 # c <- "./../images/UM_1967.06.209_5.png"

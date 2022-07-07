@@ -50,14 +50,27 @@ library(pixture)
 ```
 
 ```{r}
-a <- paste0("./../images/UM_", params$id, "_1.png")
+file_list <- list.files(path = here::here("images"), full.names = TRUE)
+  
+```
+
+
+```{r}
+a <- paste0("./images/UM_", params$id, "_1.png")
 # a <- "./../images/UM_1967.06.209_1.png"
+# a <- file_list[1]
+a <- "https://raw.githubusercontent.com/n8craig/university-museum-pfa/main/images/UM_1967.06.209_1.png"
 
 b <- paste0("./../images/UM_", params$id, "_3.JPG")
-# b <- "./../images/UM_1967.06.209_3.JPG"
+# b <- "./images/UM_1967.06.209_3.JPG"
+b <- "https://raw.githubusercontent.com/n8craig/university-museum-pfa/main/images/UM_1967.06.209_3.JPG"
+
+
 
 c <- paste0("./../images/UM_", params$id, "_5.png")
-# c <- "./../images/UM_1967.06.209_5.png"
+# c <- "./images/UM_1967.06.209_5.png"
+c <- "https://raw.githubusercontent.com/n8craig/university-museum-pfa/main/images/UM_1967.06.209_5.png"
+
 
 paths <- c(a,b,c)
 pixgallery(paths)
