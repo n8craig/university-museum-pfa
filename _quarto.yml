@@ -5,6 +5,7 @@ project:
 website:
   title: ""
   navbar:
+    background: light
     left:
       - href: index.qmd
         text: Pottery Listing

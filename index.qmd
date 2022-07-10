@@ -1,7 +1,7 @@
 ---
 title: "*Pottery From the Americas*"
 subtitle: |
-  A presentation of select objects from the *Pottery of the Americas* permanent exhibit at the University Museum.
+  A presentation of select objects from the permanent exhibit at the University Museum.
 
 # title-block-banner: true
 

@@ -1,0 +1,109 @@
+---
+params:
+  id: "1978.09.402"
+title: "Object ID: 1978.09.402"
+image: "./../images/UM_1978.09.402_3.png"
+# body-header: Home
+categories: archaeological
+description: "Pitcher"
+---
+
+```{r echo=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      message = FALSE,
+                      warning = FALSE)
+```
+
+```{r warning=FALSE, message=FALSE}
+
+# For plotting images
+library(pixture)
+library(magrittr)
+library(stringr)
+library(imager)
+
+# For reading tables
+library(tidyverse)
+library(readxl)
+library(janitor)
+```
+
+```{r data-catalog}
+# Read table data
+df <- read_excel(here::here("tables/museum_catalog_complete_2022_06_16.xlsx")) %>% janitor::clean_names()
+
+# Clean columns
+source(here::here("scripts/past_perfect_clean_fields.R"))
+```
+
+```{r}
+df <- df %>% 
+ filter(.,str_detect(objectid, params$id))
+```
+
+::: {layout-ncol=2}
+
+Collection: `r df$collection`
+
+Object ID (from table): `r df$objectid`
+
+Culture (UDF1): `r df$udf1`
+
+Object Name: `r df$objname`
+
+Other Name: `r df$othername`
+
+Rec From: `r df$recfrom`
+
+UDF2: `r df$udf2`
+
+UDF3: `r df$udf3`
+
+:::
+
+UDF21: `r df$udf21`
+
+```{r}
+paths <- list.files("../images", full.names = TRUE)
+# paths
+```
+
+```{r}
+# Subset the list with only files that contain the param$id for the report.
+# Use this to limit the list of files to display.
+
+paths <- str_subset(paths, params$id)
+# paths
+```
+
+```{r include = FALSE}
+
+# Check if dir exists and create if not
+if (!dir.exists(paste0(here::here(),"/docs/",substr(paths[1],4,17)))) {
+  print("Not there, so create")
+  dir.create(paste0(here::here(),"/docs/", substr(paths[1],4,9))) # create parent dir
+  dir.create(paste0(here::here(),"/docs/", substr(paths[1],4,16))) # create dir
+} else {
+  print("There, don't create")
+}
+
+# copy files to output dir
+file.copy(from = paths,
+          to = paste0(here::here(),
+                      "/docs/",
+                      substr(paths,4,100)))
+```
+
+```{r}
+pixgallery(paths)
+```
+
+# Condition Information
+
+Maintenance Note: `r df$maintnote`
+
+Notes: `r df$notes`
+
+Condition: `r df$condition`
+
+Condition Notes: `r df$condnotes`

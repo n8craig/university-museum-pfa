@@ -2,7 +2,7 @@
 params:
   id: "2015.4.469"
 title: "Object ID: 2015.4.469"
-image: "./../images/UM_2015.4.469_1.png"
+image: "./../images/UM_2015.04.469_1.png"
 # body-header: Home
 categories: ethnographic
 description: "Wedding Vessel"
@@ -33,19 +33,20 @@ library(pixture)
 ```
 
 ```{r}
-a <- paste0("./../images/UM_", params$id, "_1.png")
+# a <- paste0("./../images/UM_", params$id, "_1.png")
 # a <- "./../images/UM_1967.06.209_1.png"
 a <- "https://raw.githubusercontent.com/n8craig/university-museum-pfa/main/images/UM_2015.4.469_1.png"
 
-b <- paste0("./../images/UM_", params$id, "_2.png")
+# b <- paste0("./../images/UM_", params$id, "_2.png")
 # b <- "./../images/UM_1967.06.209_3.JPG"
 b <- "https://raw.githubusercontent.com/n8craig/university-museum-pfa/main/images/UM_2015.4.469_2.png"
 
 
-c <- paste0("./../images/UM_", params$id, "_3.png")
+# c <- paste0("./../images/UM_", params$id, "_3.png")
 # c <- "./../images/UM_1967.06.209_5.png"
 c <- "https://raw.githubusercontent.com/n8craig/university-museum-pfa/main/images/UM_2015.4.469_3.png"
 
 paths <- c(a,b,c)
 pixgallery(paths)
 ```
+

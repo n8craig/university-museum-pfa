@@ -16,9 +16,9 @@ library(knitr)
 ```
 
 ```{r}
-img <- paste0(here::here("images//"),
-              "UM_",
-              params$id)
+# img <- paste0(here::here("images//"),
+#               "UM_",
+#               params$id)
 ```
 
 

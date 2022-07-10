@@ -1,0 +1,42 @@
+---
+params:
+  id: "2015.04.469"
+title: "Object ID: Library Sample Images"
+image: "./../images/UM_2015.04.469_1.png"
+# body-header: Home
+categories: ethnographic
+description: "System Images"
+---
+
+```{r echo=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      message = FALSE,
+                      warning = FALSE)
+```
+
+```{r warning=FALSE, message=FALSE}
+
+# For plotting images
+library(pixture)
+library(magrittr)
+library(stringr)
+library(imager)
+
+```
+
+
+## Library system files
+
+```{r}
+paths <- list.files(system.file("extdata/images", package="pixture"), full=TRUE)
+paths
+```
+
+```{r}
+pixgallery(paths)
+```
+
+```{r}
+im<-load.image(paths[1])
+plot(im)
+```
