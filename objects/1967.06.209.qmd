@@ -8,19 +8,108 @@ description: "Unknown Plainware"
 ---
 
 ```{r echo=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = FALSE,
+                      message = FALSE,
+                      warning = FALSE)
+```
+
+```{r warning=FALSE, message=FALSE}
+
+# For plotting images
+library(pixture)
+library(magrittr)
+library(stringr)
+library(imager)
+
+# For reading tables
+library(tidyverse)
+library(readxl)
+library(janitor)
+```
+
+```{r data-catalog}
+# source(here::here("scripts/past_perfect_read_data.R"))
+load(file=here::here("tables/df.Rda"))
 ```
 
 ```{r}
-library(knitr)
+df <- df %>% 
+ filter(.,str_detect(objectid, params$id))
 ```
 
 ```{r}
-# img <- paste0(here::here("images//"),
-#               "UM_",
-#               params$id)
+# df
 ```
 
+
+::: {layout-ncol=2}
+
+Culture (UDF1): `r df$udf1`
+
+Object Name: `r df$objname`
+
+Other Name: `r df$othername`
+
+Rec From: `r df$recfrom`
+
+UDF2: `r df$udf2`
+
+UDF10: `r df$udf10`
+
+UDF3: `r df$udf3`
+
+UDF5: `r df$udf5`
+
+UDF6: `r df$udf6`
+
+Height: `r df$height`
+
+Length: `r df$length`
+
+Width: `r df$width`
+
+:::
+
+UDF21: `r df$udf21`
+
+UDF22: `r df$udf22`
+
+```{r}
+paths <- list.files("../images", full.names = TRUE)
+# paths
+```
+
+```{r}
+# Subset the list with only files that contain the param$id for the report.
+# Use this to limit the list of files to display.
+
+paths <- str_subset(paths, params$id)
+# paths
+```
+
+```{r include = FALSE}
+
+# Check if dir exists and create if not
+if (!dir.exists(paste0(here::here(),"/docs/",substr(paths[1],4,17)))) {
+  print("Not there, so create")
+  dir.create(paste0(here::here(),"/docs/", substr(paths[1],4,9))) # create parent dir
+  dir.create(paste0(here::here(),"/docs/", substr(paths[1],4,16))) # create dir
+} else {
+  print("There, don't create")
+}
+
+# copy files to output dir
+file.copy(from = paths,
+          to = paste0(here::here(),
+                      "/docs/",
+                      substr(paths,4,100)))
+```
+
+```{r}
+pixgallery(paths)
+```
+
+___
 
 ::: {layout-ncol=2}
 Object Name: Miniature Bowl
@@ -34,46 +123,4 @@ Donor: Robert Willis Sheriff
 :::
 
 Miniature ceramic vessels like this one are not uncommon at prehistoric sites in the Southwest. Archaeologists have a variety of hypotheses to explain the presence of these vessels, but their purpose remains elusive. What do you think they were used for?
-
-```{r}
-#| layout-ncol: 2
-#| column: page
-
-# include_graphics(paste0(img, "_1.png"))
-# include_graphics(paste0(img, "_3.JPG"))
-# include_graphics(paste0(img, "_5.png"))
-```
-
-
-```{r}
-library(pixture)
-```
-
-```{r}
-file_list <- list.files(path = here::here("images"), full.names = TRUE)
-  
-```
-
-
-```{r}
-a <- paste0("./images/UM_", params$id, "_1.png")
-# a <- "./../images/UM_1967.06.209_1.png"
-# a <- file_list[1]
-a <- "https://raw.githubusercontent.com/n8craig/university-museum-pfa/main/images/UM_1967.06.209_1.png"
-
-b <- paste0("./../images/UM_", params$id, "_3.JPG")
-# b <- "./images/UM_1967.06.209_3.JPG"
-b <- "https://raw.githubusercontent.com/n8craig/university-museum-pfa/main/images/UM_1967.06.209_3.png"
-
-
-
-c <- paste0("./../images/UM_", params$id, "_5.png")
-# c <- "./images/UM_1967.06.209_5.png"
-c <- "https://raw.githubusercontent.com/n8craig/university-museum-pfa/main/images/UM_1967.06.209_5.png"
-
-
-paths <- c(a,b,c)
-pixgallery(paths)
-```
-
 

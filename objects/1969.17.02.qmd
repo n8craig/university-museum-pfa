@@ -6,9 +6,111 @@ image: "./../images/UM_1969.17.02_1.png"
 categories: archaeological
 description: "Three Circle Neckcoiled"
 ---
+
+
 ```{r echo=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = FALSE,
+                      message = FALSE,
+                      warning = FALSE)
 ```
+
+```{r warning=FALSE, message=FALSE}
+
+# For plotting images
+library(pixture)
+library(magrittr)
+library(stringr)
+library(imager)
+
+# For reading tables
+library(tidyverse)
+library(readxl)
+library(janitor)
+```
+
+```{r data-catalog}
+# source(here::here("scripts/past_perfect_read_data.R"))
+load(file=here::here("tables/df.Rda"))
+```
+
+```{r}
+df <- df %>% 
+ filter(.,str_detect(objectid, params$id))
+```
+
+```{r}
+# df
+```
+
+
+::: {layout-ncol=2}
+
+Culture (UDF1): `r df$udf1`
+
+Object Name: `r df$objname`
+
+Other Name: `r df$othername`
+
+Rec From: `r df$recfrom`
+
+UDF2: `r df$udf2`
+
+UDF10: `r df$udf10`
+
+UDF3: `r df$udf3`
+
+UDF5: `r df$udf5`
+
+UDF6: `r df$udf6`
+
+Height: `r df$height`
+
+Length: `r df$length`
+
+Width: `r df$width`
+
+:::
+
+UDF21: `r df$udf21`
+
+UDF22: `r df$udf22`
+
+```{r}
+paths <- list.files("../images", full.names = TRUE)
+# paths
+```
+
+```{r}
+# Subset the list with only files that contain the param$id for the report.
+# Use this to limit the list of files to display.
+
+paths <- str_subset(paths, params$id)
+# paths
+```
+
+```{r include = FALSE}
+
+# Check if dir exists and create if not
+if (!dir.exists(paste0(here::here(),"/docs/",substr(paths[1],4,17)))) {
+  print("Not there, so create")
+  dir.create(paste0(here::here(),"/docs/", substr(paths[1],4,9))) # create parent dir
+  dir.create(paste0(here::here(),"/docs/", substr(paths[1],4,16))) # create dir
+} else {
+  print("There, don't create")
+}
+
+# copy files to output dir
+file.copy(from = paths,
+          to = paste0(here::here(),
+                      "/docs/",
+                      substr(paths,4,100)))
+```
+
+```{r}
+pixgallery(paths)
+```
+
+---
 
 ::: {layout-ncol=2}
 Object Name: Jar
@@ -25,23 +127,3 @@ Object ID: 1969.17.02
 
 Braided handles like the one seen on this Mogollon jar are difficult to execute. The potter had to remove the air pockets in between the coils to prevent the handles from breaking during firing. This is difficult to do without accidentally pressing the individual coils together to form one larger coil.
 
-```{r}
-library(pixture)
-```
-
-```{r}
-a <- paste0("./../images/UM_", params$id, "_1.png")
-# a <- "./../images/UM_1967.06.209_1.png"
-a <- "https://raw.githubusercontent.com/n8craig/university-museum-pfa/main/images/UM_1967.06.209_1.png"
-
-b <- paste0("./../images/UM_", params$id, "_1.png")
-# b <- "./../images/UM_1967.06.209_3.JPG"
-b <- a <- "https://raw.githubusercontent.com/n8craig/university-museum-pfa/main/images/UM_1967.06.209_1.png"
-
-
-# c <- paste0("./../images/UM_", params$id, "_3.png")
-# c <- "./../images/UM_1967.06.209_5.png"
-
-paths <- c(a,b)
-pixgallery(paths)
-```

@@ -95,13 +95,3 @@ file.copy(from = paths,
 ```{r}
 pixgallery(paths)
 ```
-
-# Condition Information
-
-Maintenance Note: `r df$maintnote`
-
-Notes: `r df$notes`
-
-Condition: `r df$condition`
-
-Condition Notes: `r df$condnotes`
