@@ -45,8 +45,6 @@ df <- df %>%
 
 Collection: `r df$collection`
 
-Object ID (from table): `r df$objectid`
-
 Culture (UDF1): `r df$udf1`
 
 Object Name: `r df$objname`

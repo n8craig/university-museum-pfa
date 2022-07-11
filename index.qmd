@@ -1,5 +1,5 @@
 ---
-title: "*Pottery From the Americas*"
+title: "*Pottery from the Americas*"
 subtitle: |
   A presentation of select objects from the permanent exhibit at the University Museum.
 
@@ -8,12 +8,14 @@ subtitle: |
 listing:
   contents: objects
   type: grid
+  fields: [image, title, description, categories]
+  image-height: "25"
   sort:
     - "title"
     - "categories"
   categories: true
-  grid-item-border: true
-  image-height: "50"
+  # grid-item-border: true
+  # image-height: "50"
 ---
 
 

@@ -63,7 +63,7 @@ a <- "https://raw.githubusercontent.com/n8craig/university-museum-pfa/main/image
 
 b <- paste0("./../images/UM_", params$id, "_3.JPG")
 # b <- "./images/UM_1967.06.209_3.JPG"
-b <- "https://raw.githubusercontent.com/n8craig/university-museum-pfa/main/images/UM_1967.06.209_3.JPG"
+b <- "https://raw.githubusercontent.com/n8craig/university-museum-pfa/main/images/UM_1967.06.209_3.png"
 
 
 

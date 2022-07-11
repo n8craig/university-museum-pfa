@@ -1,3 +1,5 @@
+library(janitor)
+library(forcats)
 
 # Remove all NA cols ----
 df <- df[ , colSums(is.na(df)) < nrow(df)]

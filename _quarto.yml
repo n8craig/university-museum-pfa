@@ -1,5 +1,6 @@
 project:
   type: website
+  pre-render: ./scripts/past_perfect_read_data.R
   output-dir: docs
 
 website:
@@ -9,6 +10,10 @@ website:
     left:
       - href: index.qmd
         text: Pottery Listing
+  page-footer:
+    left: "*Pottery from the Americas*"
+    right: "NMSU University Museum"
+    background: light
 
 
 format:
