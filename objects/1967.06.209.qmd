@@ -15,13 +15,13 @@ knitr::opts_chunk$set(echo = FALSE,
 
 ```{r warning=FALSE, message=FALSE}
 
-# For plotting images
+# For plotting object images
 library(pixture)
 library(magrittr)
 library(stringr)
 library(imager)
 
-# For reading tables
+# For reading object tables
 library(tidyverse)
 library(readxl)
 library(janitor)
@@ -52,15 +52,15 @@ Other Name: `r df$othername`
 
 Rec From: `r df$recfrom`
 
-UDF2: `r df$udf2`
+Artist/Creator (UDF2): `r df$udf2`
 
-UDF10: `r df$udf10`
+Locale (UDF10): `r df$udf10`
 
-UDF3: `r df$udf3`
+Source (UDF3): `r df$udf3`
 
-UDF5: `r df$udf5`
+Use (UDF5): `r df$udf5`
 
-UDF6: `r df$udf6`
+Construction: (UDF6): `r df$udf6`
 
 Height: `r df$height`
 
@@ -108,6 +108,7 @@ file.copy(from = paths,
 ```{r}
 pixgallery(paths)
 ```
+
 
 ___
 

@@ -16,13 +16,13 @@ knitr::opts_chunk$set(echo = FALSE,
 
 ```{r warning=FALSE, message=FALSE}
 
-# For plotting images
+# For plotting object images
 library(pixture)
 library(magrittr)
 library(stringr)
 library(imager)
 
-# For reading tables
+# For reading object tables
 library(tidyverse)
 library(readxl)
 library(janitor)
@@ -60,6 +60,8 @@ UDF3: `r df$udf3`
 :::
 
 UDF21: `r df$udf21`
+
+UDF22: `r df$udf22`
 
 ```{r}
 paths <- list.files("../images", full.names = TRUE)
