@@ -22,7 +22,7 @@ format:
     toc: false
 
 execute:
-  freeze: auto
+  freeze: false
 
 editor: source
 
