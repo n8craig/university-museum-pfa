@@ -5,7 +5,7 @@ title: "Object ID: 2015.04.161"
 image: "./../images/UM_2015.04.161_1.JPG"
 # body-header: Home
 categories: ethnographic
-description: "Wedding Vase"
+description: "Wedding Vessel"
 ---
 
 ```{r echo=FALSE}
