@@ -2,7 +2,7 @@
 params:
   id: "1967.06.209"
 title: "Object ID: XXXX.XX.XX"
-image: "./../images/UM_1967.06.209_1.png"
+image: "./../images/UM_1967.06.209_1.JPG"
 categories: archaeological
 description: "Archaeological Sample Vessel"
 ---
