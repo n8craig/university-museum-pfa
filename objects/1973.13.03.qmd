@@ -2,7 +2,7 @@
 params:
   id: "1973.13.03"
 title: "Object ID: 1973.13.03"
-image: "./../images/UM_1973.13.03_3.JPG"
+image: "./../images/UM_1973.13.03_3.jpg"
 # body-header: Home
 categories: archaeological
 description: "Jar"

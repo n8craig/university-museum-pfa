@@ -5,7 +5,7 @@ title: "Object ID: 1991.04.163"
 image: "./../images/UM_1991.04.163_1.jpg"
 # body-header: Home
 categories: ethnographic
-description: "Minature"
+description: "Miniature Blackware Sea Serpent Jar"
 ---
 
 ```{r echo=FALSE}

@@ -9,6 +9,7 @@ listing:
   contents: objects
   type: grid
   fields: [image, title, description, categories]
+  max-items: 100
   image-height: "25"
   sort:
     - "title"
