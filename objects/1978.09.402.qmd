@@ -71,9 +71,9 @@ Width: `r df$width`
 
 :::
 
-UDF21: `r df$udf21`
+Description (UM) (UDF21): `r df$udf21`
 
-UDF22: `r df$udf22`
+Additional Object/Collection Information (UDF22): `r df$udf22`
 
 ```{r}
 paths <- list.files("../images", full.names = TRUE)
