@@ -1,0 +1,18 @@
+{
+  "hash": "ef21c024ff7a767b66702f066a3057e2",
+  "result": {
+    "markdown": "---\nparams:\n  id: \"2015.04.161\"\ntitle: \"Object ID: 2015.04.161\"\nimage: \"./../images/UM_2015.04.161_1.JPG\"\n# body-header: Home\ncategories: ethnographic\ndescription: \"Wedding Vessel\"\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n\n\n::: {layout-ncol=2}\n\nCulture (UDF1): Isleta Pueblo\n\nObject Name: Vase\n\nOther Name: Wedding Vase\n\nRec From: Phillip L. Boucher\n\nArtist/Creator (UDF2): Caroline Carpio\n\nLocale (UDF10): NA\n\nSource (UDF3): Phillip L. Boucher\n\nUse (UDF5): NA\n\nConstruction: (UDF6): NA\n\nHeight: 22.86\n\nLength: 0\n\nWidth: 22.86\n\n:::\n\nDescription (UM) (UDF21): This white vessel has two spouts with 5 stair-step pyramids cut into the spout openings. There is a twisted handle that connects the two spouts. One side of the vessel has an etched circle with a figure in the center resembling a zia or a cross and outside the circle there is a cut-out half circle design all the way around it that is textured on the interior. The opposing side has a piece of 3-D corn complete with stalk and silks that connected to the outside of the vessel\n\nAdditional Object/Collection Information (UDF22): NA\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n```{=html}\n<div id=\"htmlwidget-5b13934a3b30e338168d\" style=\"width:100%;height:100%;\" class=\"pixgallery html-widget\"></div>\n<script type=\"application/json\" data-for=\"htmlwidget-5b13934a3b30e338168d\">{\"x\":{\"path\":[\"../images/UM_2015.04.161_1.JPG\",\"../images/UM_2015.04.161_2.JPG\",\"../images/UM_2015.04.161_3.JPG\"],\"caption\":[],\"dim\":\"200px\",\"gap\":\"6px\",\"type\":\"grid\"},\"evals\":[],\"jsHooks\":[]}</script>\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<script src=\"..\\site_libs/htmlwidgets-1.5.4/htmlwidgets.js\"></script>\r\n<link href=\"..\\site_libs/simplelightbox-0/css/simplelightbox.css\" rel=\"stylesheet\" />\r\n<script src=\"..\\site_libs/simplelightbox-0/js/simplelightbox.js\"></script>\r\n<link href=\"..\\site_libs/pixgallery-0/css/pixgallery.css\" rel=\"stylesheet\" />\r\n<script src=\"..\\site_libs/pixgallery-binding-0.0.2.2001/pixgallery.js\"></script>\r\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": null
+  }
+}

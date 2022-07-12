@@ -1,0 +1,18 @@
+{
+  "hash": "b4a4d44e3687d906ca6d7bdf678d78e7",
+  "result": {
+    "markdown": "---\nparams:\n  id: \"1978.09.402\"\ntitle: \"Object ID: 1978.09.402\"\nimage: \"./../images/UM_1978.09.402_1.JPG\"\n# body-header: Home\ncategories: archaeological\ndescription: \"Pitcher\"\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n\n\n::: {layout-ncol=2}\n\nCulture (UDF1): Ancestral Pueblo/Chaco/Cibola\n\nObject Name: Jar\n\nOther Name: Pitcher\n\nRec From: Lance Williams\n\nArtist/Creator (UDF2): NA\n\nLocale (UDF10): Chaco-Cibola region\n\nSource (UDF3): Lance Williams\n\nUse (UDF5): Domestic Use\n\nConstruction: (UDF6): Coiled\n\nHeight: 19.05\n\nLength: 0\n\nWidth: 12.7\n\n:::\n\nDescription (UM) (UDF21): White ware ceramic pitcher with striped design. The base is rounded with a flat and indented bottom.\n\nAdditional Object/Collection Information (UDF22): Looks like a transition between Puerco Black-on-White and Chaco-McElmo Black-on-White\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n```{=html}\n<div id=\"htmlwidget-aa64ff82c3a8e471f5df\" style=\"width:100%;height:100%;\" class=\"pixgallery html-widget\"></div>\n<script type=\"application/json\" data-for=\"htmlwidget-aa64ff82c3a8e471f5df\">{\"x\":{\"path\":[\"../images/UM_1978.09.402_1.JPG\",\"../images/UM_1978.09.402_4.JPG\",\"../images/UM_1978.09.402_5.JPG\"],\"caption\":[],\"dim\":\"200px\",\"gap\":\"6px\",\"type\":\"grid\"},\"evals\":[],\"jsHooks\":[]}</script>\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<script src=\"..\\site_libs/htmlwidgets-1.5.4/htmlwidgets.js\"></script>\r\n<link href=\"..\\site_libs/simplelightbox-0/css/simplelightbox.css\" rel=\"stylesheet\" />\r\n<script src=\"..\\site_libs/simplelightbox-0/js/simplelightbox.js\"></script>\r\n<link href=\"..\\site_libs/pixgallery-0/css/pixgallery.css\" rel=\"stylesheet\" />\r\n<script src=\"..\\site_libs/pixgallery-binding-0.0.2.2001/pixgallery.js\"></script>\r\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": null
+  }
+}

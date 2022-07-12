@@ -21,5 +21,8 @@ format:
     css: styles.css
     toc: false
 
+execute:
+  freeze: auto
+
 editor: source
 

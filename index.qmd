@@ -18,4 +18,10 @@ listing:
   # image-height: "50"
 ---
 
+:::{.callout-important}
+## Nota bene
 
+This site is a draft mock-up for testing code and integrating it into production.
+
+Last built: *`r Sys.time()`*
+:::
