@@ -9,7 +9,7 @@ website:
     background: light
     left:
       - href: index.qmd
-        text: Pottery Listing
+        text: Main Pottery Listing
   page-footer:
     left: "*Pottery from the Americas*"
     right: "NMSU University Museum"
