@@ -5,14 +5,21 @@ project:
 
 website:
   title: ""
+  search:
+    location: navbar
+    type: textbox
   navbar:
     background: light
-    left:
+    left: 
+      - href: https://univmuseum.nmsu.edu/
+        text: University Museum
+    right:
+
       - href: index.qmd
         text: Main Pottery Listing
   page-footer:
     left: "*Pottery from the Americas*"
-    right: "NMSU University Museum"
+    right: "[NMSU University Museum](https://univmuseum.nmsu.edu/)"
     background: light
 
 format:
