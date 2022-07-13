@@ -1,0 +1,110 @@
+---
+params:
+  id: "1998.01.19"
+title: "Object ID: 1998.01.19"
+image: "./../images/UM_1998.01.19_1.jpg"
+categories: archaeological
+description: "Cylinder Jar"
+---
+
+```{r echo=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      message = FALSE,
+                      warning = FALSE)
+```
+
+```{r warning=FALSE, message=FALSE}
+
+# For plotting object images
+library(pixture)
+library(magrittr)
+library(stringr)
+library(imager)
+
+# For reading object tables
+library(tidyverse)
+library(readxl)
+library(janitor)
+```
+
+```{r data-catalog}
+# source(here::here("scripts/past_perfect_read_data.R"))
+load(file=here::here("tables/df.Rda"))
+```
+
+```{r}
+df <- df %>% 
+ filter(.,str_detect(objectid, params$id))
+```
+
+```{r}
+# df
+```
+
+
+::: {layout-ncol=2}
+
+Culture (UDF1): `r df$udf1`
+
+Object Name: `r df$objname`
+
+Other Name: `r df$othername`
+
+Rec From: `r df$recfrom`
+
+Artist/Creator (UDF2): `r df$udf2`
+
+Locale (UDF10): `r df$udf10`
+
+Source (UDF3): `r df$udf3`
+
+Use (UDF5): `r df$udf5`
+
+Construction: (UDF6): `r df$udf6`
+
+Height: `r df$height`
+
+Length: `r df$length`
+
+Width: `r df$width`
+
+:::
+
+Description (UM) (UDF21): `r df$udf21`
+
+Additional Object/Collection Information (UDF22): `r df$udf22`
+
+```{r}
+paths <- list.files("../images", full.names = TRUE)
+# paths
+```
+
+```{r}
+# Subset the list with only files that contain the param$id for the report.
+# Use this to limit the list of files to display.
+
+paths <- str_subset(paths, params$id)
+# paths
+```
+
+```{r include = FALSE}
+
+# Check if dir exists and create if not
+if (!dir.exists(paste0(here::here(),"/docs/",substr(paths[1],4,17)))) {
+  print("Not there, so create")
+  dir.create(paste0(here::here(),"/docs/", substr(paths[1],4,9))) # create parent dir
+  dir.create(paste0(here::here(),"/docs/", substr(paths[1],4,16))) # create dir
+} else {
+  print("There, don't create")
+}
+
+# copy files to output dir
+file.copy(from = paths,
+          to = paste0(here::here(),
+                      "/docs/",
+                      substr(paths,4,100)))
+```
+
+```{r}
+pixgallery(paths)
+```
