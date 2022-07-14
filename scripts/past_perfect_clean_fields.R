@@ -4,6 +4,10 @@ library(forcats)
 # Remove all NA cols ----
 df <- df[ , colSums(is.na(df)) < nrow(df)]
 
+# Move Object ID to the front
+
+df <- dplyr::select(df, objectid, everything())
+
 ## Convert dates ----
 
 # catdate
@@ -91,4 +95,3 @@ df$udf9 <- as_factor(df$udf9)
 
 # updateby
 df$updatedby <- as_factor(df$updatedby)
-

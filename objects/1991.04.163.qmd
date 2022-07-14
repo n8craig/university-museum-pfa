@@ -3,7 +3,6 @@ params:
   id: "1991.04.163"
 title: "Object ID: 1991.04.163"
 image: "./../images/UM_1991.04.163_1.jpg"
-# body-header: Home
 categories: ethnographic
 description: "Miniature Blackware Sea Serpent Jar"
 ---
@@ -29,11 +28,8 @@ library(janitor)
 ```
 
 ```{r data-catalog}
-# Read table data
-df <- read_excel(here::here("tables/museum_catalog_complete_2022_06_16.xlsx")) %>% janitor::clean_names()
-
-# Clean columns
-source(here::here("scripts/past_perfect_clean_fields.R"))
+# source(here::here("scripts/past_perfect_read_data.R"))
+load(file=here::here("tables/df.Rda"))
 ```
 
 ```{r}
@@ -41,41 +37,8 @@ df <- df %>%
  filter(.,str_detect(objectid, params$id))
 ```
 
-::: {layout-ncol=2}
-
-Culture (UDF1): `r df$udf1`
-
-Object Name: `r df$objname`
-
-Other Name: `r df$othername`
-
-Rec From: `r df$recfrom`
-
-Artist/Creator (UDF2): `r df$udf2`
-
-Locale (UDF10): `r df$udf10`
-
-Source (UDF3): `r df$udf3`
-
-Use (UDF5): `r df$udf5`
-
-Construction: (UDF6): `r df$udf6`
-
-Height: `r df$height`
-
-Length: `r df$length`
-
-Width: `r df$width`
-
-:::
-
-Description (UM) (UDF21): `r df$udf21`
-
-Additional Object/Collection Information (UDF22): `r df$udf22`
-
 ```{r}
 paths <- list.files("../images", full.names = TRUE)
-# paths
 ```
 
 ```{r}
@@ -83,7 +46,6 @@ paths <- list.files("../images", full.names = TRUE)
 # Use this to limit the list of files to display.
 
 paths <- str_subset(paths, params$id)
-# paths
 ```
 
 ```{r include = FALSE}
@@ -107,3 +69,35 @@ file.copy(from = paths,
 ```{r}
 pixgallery(paths)
 ```
+
+`r df$exhlabel3`
+
+# Catalog Record
+
+::: {layout-ncol=2}
+
+Culture/Ethnicity: `r df$udf1`
+
+Object Name: `r df$objname`
+
+Other Name: `r df$othername`
+
+Artist/Creator: `r df$udf2`
+
+Locale: `r df$udf10`
+
+Use: `r df$udf5`
+
+Construction: `r df$udf6`
+
+Height: `r df$height`
+
+Length: `r df$length`
+
+Width: `r df$width`
+
+:::
+
+Description: `r df$udf21`
+
+Source: `r df$udf3`
