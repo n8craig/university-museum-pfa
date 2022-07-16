@@ -2,7 +2,7 @@
 params:
   id: "1998.01.49"
 title: "Object ID: 1998.01.49"
-image: "./../images/UM_1998.01.49_1_th.jpg"
+image: "./../images/UM_1998.01.49_1.jpg"
 categories: archaeological
 description: "Effigy Bowl"
 ---

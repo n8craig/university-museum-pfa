@@ -13,11 +13,4 @@ listing:
     - "title"
   categories: true
 ---
-
-:::{.callout-important}
-## Nota bene
-
-This site is a draft mock-up for testing code and integrating it into production.
-
-Last built: *`r Sys.time()`*
-:::
+Page last rendered: *`r Sys.time()`*

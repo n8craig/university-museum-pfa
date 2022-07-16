@@ -2,7 +2,7 @@
 params:
   id: "1991.04.163"
 title: "Object ID: 1991.04.163"
-image: "./../images/UM_1991.04.163_1_th.jpg"
+image: "./../images/UM_1991.04.163_1.jpg"
 categories: ethnographic
 description: "Miniature Blackware Sea Serpent Jar"
 ---

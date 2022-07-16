@@ -2,7 +2,7 @@
 params:
   id: "2012.16.01"
 title: "Object ID: 2012.16.01"
-image: "./../images/UM_2012.16.01_1_th.jpg"
+image: "./../images/UM_2012.16.01_1.jpg"
 categories: ethnographic
 description: "Black and White Olla"
 ---

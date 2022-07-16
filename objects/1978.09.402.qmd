@@ -2,7 +2,7 @@
 params:
   id: "1978.09.402"
 title: "Object ID: 1978.09.402"
-image: "./../images/UM_1978.09.402_1_th.jpg"
+image: "./../images/UM_1978.09.402_1.jpg"
 categories: archaeological
 description: "Puerco Black-On-White/Chaco-McElmo Black-On-White Pitcher"
 ---

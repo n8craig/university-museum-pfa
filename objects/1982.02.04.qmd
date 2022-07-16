@@ -2,7 +2,7 @@
 params:
   id: "1982.02.04"
 title: "Object ID: 1982.02.04"
-image: "./../images/UM_1982.02.04_1_th.jpg"
+image: "./../images/UM_1982.02.04_1.jpg"
 categories: archaeological
 description: "Gila Polychrome Bowl"
 ---

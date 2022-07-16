@@ -2,7 +2,7 @@
 params:
   id: "2015.04.379"
 title: "Object ID: 2015.04.379"
-image: "./../images/UM_2015.04.379_1_th.jpg"
+image: "./../images/UM_2015.04.379_1.jpg"
 categories: ethnographic
 description: "Zuni Wedding Vase"
 ---

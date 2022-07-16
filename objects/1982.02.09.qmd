@@ -2,7 +2,7 @@
 params:
   id: "1982.02.09"
 title: "Object ID: 1982.02.09"
-image: "./../images/UM_1982.02.09_1_th.jpg"
+image: "./../images/UM_1982.02.09_1.jpg"
 categories: archaeological
 description: "Tularosa Black-On-White Jar"
 ---

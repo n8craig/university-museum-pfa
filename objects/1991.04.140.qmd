@@ -2,7 +2,7 @@
 params:
   id: "1991.04.140"
 title: "Object ID: 1991.04.140"
-image: "./../images/UM_1991.04.140_1_th.jpg"
+image: "./../images/UM_1991.04.140_1.jpg"
 categories: ethnographic
 description: "Flat Black on Black Bowl"
 ---

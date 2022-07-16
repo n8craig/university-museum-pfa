@@ -2,7 +2,7 @@
 params:
   id: "1967.06.139"
 title: "Object ID: 1967.06.139"
-image: "./../images/UM_1967.06.139_1_th.jpg"
+image: "./../images/UM_1967.06.139_1.jpg"
 categories: ethnographic
 description: "Tigua Child’s Bowl"
 ---

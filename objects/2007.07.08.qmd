@@ -2,7 +2,7 @@
 params:
   id: "2007.07.08"
 title: "Object ID: 2007.07.08"
-image: "./../images/UM_2007.07.08_1_th.jpg"
+image: "./../images/UM_2007.07.08_1.jpg"
 categories: ethnographic
 description: "San Juan Rippled Rim Bowl"
 ---
