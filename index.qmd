@@ -2,20 +2,16 @@
 title: "*Pottery from the Americas*"
 subtitle: |
   A presentation of select objects from the permanent exhibit at the University Museum.
-
-# title-block-banner: true
-
+# title-block-banner: images/title_hero.jpg
 listing:
   contents: objects
   type: grid
   fields: [image, title, description, categories]
   page-size: 42
-  # image-height: "75px"
   sort:
     - "categories"
     - "title"
   categories: true
-
 ---
 
 :::{.callout-important}
