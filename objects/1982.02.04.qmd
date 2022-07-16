@@ -2,9 +2,9 @@
 params:
   id: "1982.02.04"
 title: "Object ID: 1982.02.04"
-image: "./../images/UM_1982.02.04_1.jpg"
+image: "./../images/UM_1982.02.04_1_th.jpg"
 categories: archaeological
-description: "Vessel"
+description: "Gila Polychrome Bowl"
 ---
 
 ```{r echo=FALSE}

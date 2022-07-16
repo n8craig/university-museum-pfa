@@ -1,6 +1,6 @@
 project:
   type: website
-  pre-render: ./scripts/past_perfect_read_data.R
+  pre-render: ./scripts/build.R
   output-dir: docs
 
 website:

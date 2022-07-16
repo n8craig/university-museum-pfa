@@ -2,9 +2,9 @@
 params:
   id: "2011.05.10"
 title: "Object ID: 2011.05.10"
-image: "./../images/UM_2011.05.10_1.jpg"
+image: "./../images/UM_2011.05.10_1_th.jpg"
 categories: archaeological
-description: "Bowl"
+description: "Ramos Black Bowl"
 ---
 
 ```{r echo=FALSE}

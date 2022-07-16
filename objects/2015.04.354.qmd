@@ -2,7 +2,7 @@
 params:
   id: "2015.04.354"
 title: "Object ID: 2015.04.354"
-image: "./../images/UM_2015.04.354_1.jpg"
+image: "./../images/UM_2015.04.354_1_th.jpg"
 categories: ethnographic
 description: "Micaceous Wedding Vase"
 ---

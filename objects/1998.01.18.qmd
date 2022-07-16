@@ -2,9 +2,9 @@
 params:
   id: "1998.01.18"
 title: "Object ID: 1998.01.18"
-image: "./../images/UM_1998.01.18_1.jpg"
+image: "./../images/UM_1998.01.18_1_th.jpg"
 categories: archaeological
-description: "Effigy Bowl"
+description: "Huetar Effigy Bowl"
 ---
 
 ```{r echo=FALSE}

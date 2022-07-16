@@ -2,7 +2,7 @@
 params:
   id: "1967.06.139"
 title: "Object ID: 1967.06.139"
-image: "./../images/UM_1967.06.139_1.jpg"
+image: "./../images/UM_1967.06.139_1_th.jpg"
 categories: ethnographic
 description: "Tigua Child’s Bowl"
 ---
@@ -39,6 +39,7 @@ df <- df %>%
 
 ```{r}
 paths <- list.files("../images", full.names = TRUE)
+
 ```
 
 ```{r}

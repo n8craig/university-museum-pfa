@@ -2,7 +2,7 @@
 params:
   id: "2015.04.469"
 title: "Object ID: 2015.04.469"
-image: "./../images/UM_2015.04.469_1.png"
+image: "./../images/UM_2015.04.469_1.png_th.jpg"
 categories: ethnographic
 description: "Wedding Vessel"
 ---

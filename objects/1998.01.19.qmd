@@ -2,9 +2,9 @@
 params:
   id: "1998.01.19"
 title: "Object ID: 1998.01.19"
-image: "./../images/UM_1998.01.19_1.jpg"
+image: "./../images/UM_1998.01.19_1_th.jpg"
 categories: archaeological
-description: "Cylinder Jar"
+description: "Maya Cylinder Jar"
 ---
 
 ```{r echo=FALSE}
