@@ -11,8 +11,8 @@ website:
   navbar:
     background: light
     left: 
-      - href: finding_guide.qmd
-        text: Finding Guide
+      - text: Finding Guid
+        file: finding_guide.qmd
   page-footer:
     left: "*Pottery from the Americas*"
     right: "[NMSU University Museum](https://univmuseum.nmsu.edu/)"
