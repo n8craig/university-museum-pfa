@@ -2,7 +2,7 @@
 params:
   id: "1998.01.45"
 title: "Object ID: 1998.01.45"
-image: "./../images/UM_1998.01.45_1.jpg"
+image: "./../images/UM_1998.01.45_1_th.jpg"
 categories: archaeological
 description: "Madera Black-On-Red Jar"
 ---

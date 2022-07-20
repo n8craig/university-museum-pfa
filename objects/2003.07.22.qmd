@@ -2,7 +2,7 @@
 params:
   id: "2003.07.22"
 title: "Object ID: 2003.07.22"
-image: "./../images/UM_2003.07.22_1.jpg"
+image: "./../images/UM_2003.07.22_1_th.jpg"
 categories: archaeological
 description: "El Paso Bichrome Bowl"
 ---

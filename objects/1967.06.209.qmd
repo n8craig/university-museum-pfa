@@ -2,9 +2,9 @@
 params:
   id: "1967.06.209"
 title: "Object ID: 1967.06.209"
-image: "./../images/UM_1967.06.209_1.jpg"
+image: "./../images/UM_1967.06.209_1_th.jpg"
 categories: archaeological
-description: "Unknown Plainware Minature Bowl"
+description: "Unknown Plainware"
 ---
 
 ```{r echo=FALSE}

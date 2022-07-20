@@ -2,7 +2,7 @@
 params:
   id: "2007.07.04"
 title: "Object ID: 2007.07.04"
-image: "./../images/UM_2007.07.04_1.jpg"
+image: "./../images/UM_2007.07.04_1_th.jpg"
 categories: ethnographic
 description: "Rippled Rim Bowl"
 ---

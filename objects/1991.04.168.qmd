@@ -2,7 +2,7 @@
 params:
   id: "1991.04.168"
 title: "Object ID: 1991.04.168"
-image: "./../images/UM_1991.04.168_1.jpg"
+image: "./../images/UM_1991.04.168_1_th.jpg"
 categories: ethnographic
 description: "Turkey Seed Jar"
 ---

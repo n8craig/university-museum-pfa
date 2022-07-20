@@ -2,7 +2,7 @@
 params:
   id: "2011.05.03"
 title: "Object ID: 2011.05.03"
-image: "./../images/UM_2011.05.03_1.jpg"
+image: "./../images/UM_2011.05.03_1_th.jpg"
 categories: archaeological
 description: "Casas Grandes Brown Ware Jar"
 ---

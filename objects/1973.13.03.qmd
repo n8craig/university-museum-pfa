@@ -2,7 +2,7 @@
 params:
   id: "1973.13.03"
 title: "Object ID: 1973.13.03"
-image: "./../images/UM_1973.13.03_3.jpg"
+image: "./../images/UM_1973.13.03_3_th.jpg"
 categories: archaeological
 description: "Reserve Indented Corrugated Jar"
 ---

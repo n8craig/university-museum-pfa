@@ -2,7 +2,7 @@
 params:
   id: "1980.17.476"
 title: "Object ID: 1980.17.476"
-image: "./../images/UM_1980.17.476_1.jpg"
+image: "./../images/UM_1980.17.476_1_th.jpg"
 categories: archaeological
 description: "Mimbres Classic Black-On-White Bowl"
 ---
