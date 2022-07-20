@@ -1,0 +1,84 @@
+---
+title: "Finding Guide"
+---
+
+:::{.callout-warning}
+# Draft finding guide
+
+<!-- NC will look at getting a good description name into the table. Until we get the categories sorted out under the hood, I'm guessing we can use `exhlabel1` for this purpose and it will not mess up any of the original catalog record.  -->
+
+:::
+
+:::{.callout-tip collapse="true"}
+## Expand for tips on using the table
+
+- Use the search box on the right to narrow results.
+- Use the dropdown on the left to control the number of records shown. Additional results are paged.
+- Page through the table using the controls at the bottom.
+- Sort column values by clicking on column labels.
+- Filter columns by entering values in the box below colum names.
+
+:::
+
+
+```{r, echo=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      message = FALSE,
+                      warning = FALSE)
+```
+
+```{r}
+library(dplyr)
+library(stringr)
+library(DT)
+```
+
+```{r}
+load(file=here::here("tables/df.Rda"))
+```
+
+```{r}
+df <- df %>% 
+  filter(exhibitno == 15) %>% 
+  select(objectid, locfield3, locfield4,exhlabel1)
+```
+
+```{r}
+df$locfield3 <- forcats::fct_drop(df$locfield3)
+df$locfield4 <- forcats::fct_drop(df$locfield4)
+```
+
+```{r}
+df <- df %>% 
+  mutate(locfield3 = str_replace_all(locfield3, pattern = "^Unit_1$", replacement = "1"),
+         locfield3 = str_replace_all(locfield3, pattern = "^Unit_2$", replacement = "2"),
+         locfield3 = str_replace_all(locfield3, pattern = "^Unit_3$", replacement = "3"),
+         locfield3 = str_replace_all(locfield3, pattern = "^Unit_4$", replacement = "4"),
+         locfield3 = str_replace_all(locfield3, pattern = "^Unit_5$", replacement = "5"),
+         locfield3 = str_replace_all(locfield3, pattern = "^Unit_6$", replacement = "6"),
+         locfield3 = str_replace_all(locfield3, pattern = "^Unit_7$", replacement = "7"),
+         locfield3 = str_replace_all(locfield3, pattern = "^Unit_8$", replacement = "8"),
+         locfield3 = str_replace_all(locfield3, pattern = "^Unit_9$", replacement = "9"),
+         locfield3 = str_replace_all(locfield3, pattern = "^Unit_10$", replacement = "10"),
+         locfield3 = str_replace_all(locfield3, pattern = "^Unit_11$", replacement = "11"),
+         locfield3 = str_replace_all(locfield3, pattern = "^Unit_12$", replacement = "12"),
+         locfield4 = str_replace_all(locfield4, pattern = "^Shelf_1$", replacement = "1"),
+         locfield4 = str_replace_all(locfield4, pattern = "^Shelf_2$", replacement = "2"),
+         locfield4 = str_replace_all(locfield4, pattern = "^Shelf_3$", replacement = "3"),
+         locfield4 = str_replace_all(locfield4, pattern = "^Shelf_4$", replacement = "4"),
+         locfield4 = str_replace_all(locfield4, pattern = "^Shelf_5$", replacement = "5"),
+         locfield4 = str_replace_all(locfield4, pattern = "^Shelf_6$", replacement = "6")
+         )
+```
+
+
+```{r}
+#| column: page
+
+datatable(df, filter = 'top', 
+          colnames = c("ID", "Unit", "Shelf", "Label 1"),
+          rownames = FALSE,
+          options = list(pageLength = 10,
+                         autoWidth = TRUE))
+```
+
