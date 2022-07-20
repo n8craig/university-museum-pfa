@@ -4,19 +4,15 @@ project:
   output-dir: docs
 
 website:
-  title: ""
+  title: "*Pottery from the Americas*"
   search:
     location: navbar
     type: textbox
   navbar:
     background: light
     left: 
-      - href: https://univmuseum.nmsu.edu/
-        text: University Museum
-    right:
-
-      - href: index.qmd
-        text: Main Pottery Listing
+      - href: finding_guide.qmd
+        text: Finding Guide
   page-footer:
     left: "*Pottery from the Americas*"
     right: "[NMSU University Museum](https://univmuseum.nmsu.edu/)"

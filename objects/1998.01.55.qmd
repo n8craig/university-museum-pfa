@@ -2,7 +2,7 @@
 params:
   id: "1998.01.55"
 title: "Object ID: 1998.01.55"
-image: "./../images/UM_1998.01.55_1_th.jpg"
+image: "./../images/UM_1998.01.55_1.jpg"
 categories: archaeological
 description: "Effigy Jar"
 ---

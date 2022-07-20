@@ -2,9 +2,9 @@
 params:
   id: "1969.17.02"
 title: "Object ID: 1969.17.02"
-image: "./../images/UM_1969.17.02_1_th.jpg"
+image: "./../images/UM_1969.17.02_1.jpg"
 categories: archaeological
-description: "Three Circle Neckcoiled"
+description: "Three Circle Neckcoiled Jar"
 ---
 
 ```{r echo=FALSE}

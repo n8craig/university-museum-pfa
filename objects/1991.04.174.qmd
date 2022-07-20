@@ -2,7 +2,7 @@
 params:
   id: "1991.04.174"
 title: "Object ID: 1991.04.174"
-image: "./../images/UM_1991.04.174_1_th.jpg"
+image: "./../images/UM_1991.04.174_1.jpg"
 categories: ethnographic
 description: "Black on Black Blue Corn Bowl"
 ---

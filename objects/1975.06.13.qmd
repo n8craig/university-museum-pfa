@@ -2,7 +2,7 @@
 params:
   id: "1975.06.13"
 title: "Object ID: 1975.06.13"
-image: "./../images/UM_1975.06.13_1_th.jpg"
+image: "./../images/UM_1975.06.13_1.jpg"
 categories: ethnographic
 description: "Black on Black Martinez Bowl"
 ---

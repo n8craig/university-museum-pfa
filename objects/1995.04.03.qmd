@@ -2,7 +2,7 @@
 params:
   id: "1995.04.03"
 title: "Object ID: 1995.04.03"
-image: "./../images/UM_1995.04.03_1_th.jpg"
+image: "./../images/UM_1995.04.03_1.jpg"
 categories: archaeological
 description: "Awatovi Black-On-Yellow Bowl"
 ---

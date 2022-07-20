@@ -2,7 +2,7 @@
 params:
   id: "2015.04.372"
 title: "Object ID: 2015.04.372"
-image: "./../images/UM_2015.04.372_1_th.jpg"
+image: "./../images/UM_2015.04.372_1.jpg"
 categories: ethnographic
 description: "Painted Wedding Vase"
 ---

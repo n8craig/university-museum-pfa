@@ -2,7 +2,7 @@
 params:
   id: "2015.04.216"
 title: "Object ID: 2015.04.216"
-image: "./../images/UM_2015.04.216_1_th.jpg"
+image: "./../images/UM_2015.04.216_1.jpg"
 categories: ethnographic
 description: "Hummingbird Wedding Vase"
 ---

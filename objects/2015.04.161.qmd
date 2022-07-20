@@ -2,7 +2,7 @@
 params:
   id: "2015.04.161"
 title: "Object ID: 2015.04.161"
-image: "./../images/UM_2015.04.161_1_th.jpg"
+image: "./../images/UM_2015.04.161_1.jpg"
 categories: ethnographic
 description: "White Wedding Vase with Corn"
 ---

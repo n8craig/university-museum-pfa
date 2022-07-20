@@ -2,7 +2,7 @@
 params:
   id: "1978.09.742"
 title: "Object ID: 1978.09.742"
-image: "./../images/UM_1978.09.742_4_th.jpg"
+image: "./../images/UM_1978.09.742_4.jpg"
 categories: archaeological
 description: "Deadmans Black-on-Red Pitcher"
 ---

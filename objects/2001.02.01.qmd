@@ -2,7 +2,7 @@
 params:
   id: "2001.02.01"
 title: "Object ID: 2001.02.01"
-image: "./../images/UM_2001.02.01_1_th.jpg"
+image: "./../images/UM_2001.02.01_1.jpg"
 categories: ethnographic
 description: "Polychrome Earthenware Olla"
 ---

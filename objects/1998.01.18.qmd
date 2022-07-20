@@ -2,7 +2,7 @@
 params:
   id: "1998.01.18"
 title: "Object ID: 1998.01.18"
-image: "./../images/UM_1998.01.18_1_th.jpg"
+image: "./../images/UM_1998.01.18_1.jpg"
 categories: archaeological
 description: "Huetar Effigy Bowl"
 ---

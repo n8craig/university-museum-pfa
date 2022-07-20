@@ -1,27 +1,24 @@
 ---
-title: "*Pottery from the Americas*"
+title: "Featured Objects"
 subtitle: |
   A presentation of select objects from the permanent exhibit at the University Museum.
-
-# title-block-banner: true
-
+# title-block-banner: images/title_hero.jpg
 listing:
+  id: main-listing
   contents: objects
   type: grid
-  fields: [image, title, description, categories]
+  grid-columns: 4
+  image-height: "350px"
+  # fields: [image, title, description, categories]
   page-size: 42
-  # image-height: "75px"
   sort:
     - "categories"
     - "title"
   categories: true
-
 ---
 
-:::{.callout-important}
-## Nota bene
+Page last rendered: *`r Sys.time()`*
 
-This site is a draft mock-up for testing code and integrating it into production.
+:::{#main-listing .column-screen-inset-left}
 
-Last built: *`r Sys.time()`*
 :::
