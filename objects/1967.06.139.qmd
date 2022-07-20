@@ -68,7 +68,8 @@ file.copy(from = paths,
 ```
 
 ```{r}
-pixgallery(paths)
+#| column: page
+pixgallery(paths, dim="250px")
 ```
 
 `r df$exhlabel3`
