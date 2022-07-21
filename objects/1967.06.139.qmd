@@ -98,6 +98,8 @@ Length: `r df$length`
 
 Width: `r df$width`
 
+Location: Kent Hall, East Gallery, `r df$locfield3`, `r df$locfield4`
+
 :::
 
 Description: `r df$udf21`

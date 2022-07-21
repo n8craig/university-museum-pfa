@@ -49,7 +49,7 @@ df$locfield4 <- forcats::fct_drop(df$locfield4)
 ```
 
 ```{r}
-df <- df %>% 
+df <- df %>%
   mutate(locfield3 = str_replace_all(locfield3, pattern = "^Unit_1$", replacement = "1"),
          locfield3 = str_replace_all(locfield3, pattern = "^Unit_2$", replacement = "2"),
          locfield3 = str_replace_all(locfield3, pattern = "^Unit_3$", replacement = "3"),
@@ -68,7 +68,9 @@ df <- df %>%
          locfield4 = str_replace_all(locfield4, pattern = "^Shelf_4$", replacement = "4"),
          locfield4 = str_replace_all(locfield4, pattern = "^Shelf_5$", replacement = "5"),
          locfield4 = str_replace_all(locfield4, pattern = "^Shelf_6$", replacement = "6")
-         )
+  )
+
+
 ```
 
 

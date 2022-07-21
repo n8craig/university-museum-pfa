@@ -61,9 +61,12 @@ df$homeloc <- as_factor(df$homeloc)
 df$invnby <- as_factor(df$invnby)
 
 # locfields
+
 df$locfield1 <- as_factor(df$locfield1)
 df$locfield3 <- as_factor(df$locfield3)
 df$locfield4 <- as_factor(df$locfield4)
+
+
 
 # objname
 df$objname <- as_factor(df$objname)

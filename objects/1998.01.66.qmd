@@ -1,9 +1,9 @@
 ---
 params:
-  id: "2011.05.10"
-title: "Object ID: 2011.05.10"
-image: "./../images/UM_2011.05.10_1.jpg"
-categories: archaeological
+  id: "1998.01.66"
+title: "Object ID: 1998.01.66"
+image: "./../images/UM_1998.01.66_1.jpg"
+categories: ethnographic
 description: "Ramos Black Bowl"
 ---
 
@@ -39,6 +39,7 @@ df <- df %>%
 
 ```{r}
 paths <- list.files("../images", full.names = TRUE)
+
 ```
 
 ```{r}
@@ -96,6 +97,8 @@ Height: `r df$height`
 Length: `r df$length`
 
 Width: `r df$width`
+
+Location: Kent Hall, East Gallery, `r df$locfield3`, `r df$locfield4`
 
 :::
 

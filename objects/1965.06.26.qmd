@@ -1,10 +1,10 @@
 ---
 params:
-  id: "2015.04.469"
-title: "Object ID: 2015.04.469"
-image: "./../images/UM_2015.04.469_1.jpg"
+  id: "1965.06.26"
+title: "Object ID: 1965.06.26"
+image: "./../images/UM_1965.06.26_1.jpg"
 categories: ethnographic
-description: "Wedding Vessel"
+description: "Zuni Frog Jar"
 ---
 
 ```{r echo=FALSE}
@@ -39,6 +39,7 @@ df <- df %>%
 
 ```{r}
 paths <- list.files("../images", full.names = TRUE)
+
 ```
 
 ```{r}
@@ -97,8 +98,11 @@ Length: `r df$length`
 
 Width: `r df$width`
 
+Location: Kent Hall, East Gallery, `r df$locfield3`, `r df$locfield4`
+
 :::
 
 Description: `r df$udf21`
 
 Source: `r df$udf3`
+
